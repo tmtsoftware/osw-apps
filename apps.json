@@ -1,5 +1,5 @@
 {
-    "csw-shell": {
+    "esw-shell": {
         "repositories": [
             "jitpack",
             "central",
