@@ -1,13 +1,35 @@
 {
-    "esw-shell": {
-        "repositories": [
-            "jitpack",
-            "central",
-            "bintray:lonelyplanet/maven"
-        ],
-        "dependencies": [
-            "com.github.tmtsoftware.esw:esw-shell_2.13:latest.release"
-        ],
-        "mainClass": "shell.Main"
-    }
+  "esw-shell": {
+    "repositories": ["jitpack", "central", "bintray:lonelyplanet/maven"],
+    "dependencies": [
+      "com.github.tmtsoftware.esw:esw-shell_2.13:latest.integration"
+    ],
+    "mainClass": "shell.Main"
+  },
+  "backend-testkit-services": {
+    "repositories": [
+      "jitpack",
+      "central",
+      "https://jcenter.bintray.com",
+      "bintray:lonelyplanet/maven"
+    ],
+    "dependencies": [
+      "com.github.tmtsoftware:backend-testkit_2.13:latest.release",
+      "com.typesafe.akka:akka-http-spray-json_2.13:10.2.0-M1"
+    ],
+    "mainClass": "org.tmt.BackendService"
+  },
+  "backend-testkit-component": {
+    "repositories": [
+      "jitpack",
+      "central",
+      "https://jcenter.bintray.com",
+      "bintray:lonelyplanet/maven"
+    ],
+    "dependencies": [
+      "com.github.tmtsoftware:backend-testkit_2.13:latest.release",
+      "com.typesafe.akka:akka-http-spray-json_2.13:10.2.0-M1"
+    ],
+    "mainClass": "org.tmt.ContainerCmdApp"
+  }
 }
