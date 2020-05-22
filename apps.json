@@ -20,6 +20,26 @@
       "com.github.tmtsoftware.esw:esw-gateway-server_2.13:latest.release"
     ]
   },
+  "agent-app": {
+    "repositories": [
+      "jitpack",
+      "central",
+      "bintray:lonelyplanet/maven"
+    ],
+    "dependencies": [
+      "com.github.tmtsoftware.esw:esw-agent-app_2.13:latest.release"
+    ]
+  },
+  "ocs-app": {
+    "repositories": [
+      "jitpack",
+      "central",
+      "bintray:lonelyplanet/maven"
+    ],
+    "dependencies": [
+      "com.github.tmtsoftware.esw:esw-ocs-app_2.13:latest.release"
+    ]
+  },
   "backend-testkit-services": {
     "repositories": ["jitpack", "central", "bintray:lonelyplanet/maven"],
     "dependencies": [
