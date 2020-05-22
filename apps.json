@@ -1,41 +1,25 @@
 {
   "esw-shell": {
-    "repositories": [
-      "jitpack",
-      "central",
-      "bintray:lonelyplanet/maven"
-    ],
+    "repositories": ["jitpack", "central", "bintray:lonelyplanet/maven"],
     "dependencies": [
       "com.github.tmtsoftware.esw:esw-shell_2.13:latest.integration"
     ],
     "mainClass": "shell.Main"
   },
   "gateway-server": {
-    "repositories": [
-      "jitpack",
-      "central",
-      "bintray:lonelyplanet/maven"
-    ],
+    "repositories": ["jitpack", "central", "bintray:lonelyplanet/maven"],
     "dependencies": [
       "com.github.tmtsoftware.esw:esw-gateway-server_2.13:latest.release"
     ]
   },
   "agent-app": {
-    "repositories": [
-      "jitpack",
-      "central",
-      "bintray:lonelyplanet/maven"
-    ],
+    "repositories": ["jitpack", "central", "bintray:lonelyplanet/maven"],
     "dependencies": [
       "com.github.tmtsoftware.esw:esw-agent-app_2.13:latest.release"
     ]
   },
   "ocs-app": {
-    "repositories": [
-      "jitpack",
-      "central",
-      "bintray:lonelyplanet/maven"
-    ],
+    "repositories": ["jitpack", "central", "bintray:lonelyplanet/maven"],
     "dependencies": [
       "com.github.tmtsoftware.esw:esw-ocs-app_2.13:latest.release"
     ]
@@ -50,7 +34,7 @@
   "backend-testkit-component": {
     "repositories": ["jitpack", "central", "bintray:lonelyplanet/maven"],
     "dependencies": [
-      "com.github.tmtsoftware:backend-testkit_2.13:latest.release"
+      "com.github.tmtsoftware.backend-testkit:backend-testkit_2.13:latest.release"
     ],
     "mainClass": "org.tmt.ContainerCmdApp"
   }
