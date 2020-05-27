@@ -73,5 +73,12 @@
       "com.github.tmtsoftware.backend-testkit:backend-testkit_2.13:latest.release"
     ],
     "mainClass": "org.tmt.ContainerCmdApp"
+  },
+  "backend-testkit-sequencer": {
+    "repositories": ["jitpack", "central", "bintray:lonelyplanet/maven"],
+    "dependencies": [
+      "com.github.tmtsoftware.backend-testkit:backend-testkit_2.13:latest.release"
+    ],
+    "mainClass": "org.tmt.SequencerApp"
   }
 }
