@@ -81,10 +81,15 @@
     "mainClass": "org.tmt.ContainerCmdApp"
   },
   "backend-testkit-sequencer": {
-    "repositories": ["jitpack", "central", "bintray:lonelyplanet/maven"],
+    "repositories": ["jitpack", "central"],
     "dependencies": [
       "com.github.tmtsoftware.backend-testkit:backend-testkit_2.13:latest.release"
     ],
     "mainClass": "org.tmt.SequencerApp"
+  },
+  "rtm": {
+    "repositories": ["jitpack", "https://jcenter.bintray.com"],
+    "dependencies": ["com.github.tmtsoftware:rtm_2.13:latest.release"],
+    "mainClass": "tmt.test.reporter.TestRequirementMapper"
   }
 }
