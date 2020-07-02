@@ -66,21 +66,21 @@
     ]
   },
   "backend-testkit-services": {
-    "repositories": ["jitpack", "central"],
+    "repositories": ["jitpack", "central", "https://jcenter.bintray.com"],
     "dependencies": [
       "com.github.tmtsoftware.backend-testkit:backend-testkit_2.13:latest.release"
     ],
     "mainClass": "org.tmt.BackendService"
   },
   "backend-testkit-component": {
-    "repositories": ["jitpack", "central"],
+    "repositories": ["jitpack", "central", "https://jcenter.bintray.com"],
     "dependencies": [
       "com.github.tmtsoftware.backend-testkit:backend-testkit_2.13:latest.release"
     ],
     "mainClass": "org.tmt.ContainerCmdApp"
   },
   "backend-testkit-sequencer": {
-    "repositories": ["jitpack", "central"],
+    "repositories": ["jitpack", "central", "https://jcenter.bintray.com"],
     "dependencies": [
       "com.github.tmtsoftware.backend-testkit:backend-testkit_2.13:latest.release"
     ],
