@@ -90,5 +90,12 @@
     "repositories": ["jitpack", "https://jcenter.bintray.com"],
     "dependencies": ["com.github.tmtsoftware:rtm_2.13:latest.release"],
     "mainClass": "tmt.test.reporter.TestRequirementMapper"
+  },
+  "csw-contract": {
+    "repositories": ["jitpack", "central", "https://jcenter.bintray.com", "bintray:lonelyplanet/maven"],
+    "dependencies": [
+      "com.github.tmtsoftware.csw:csw-contract_2.13:latest.release"
+    ],
+    "mainClass": "csw.contract.Main"
   }
 }
