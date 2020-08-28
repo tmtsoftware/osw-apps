@@ -18,6 +18,12 @@
       "com.github.tmtsoftware.esw:esw-agent-app_2.13:latest.release"
     ]
   },
+  "agent-service-app": {
+    "repositories": ["jitpack", "central"],
+    "dependencies": [
+      "com.github.tmtsoftware.esw:esw-agent-service-app_2.13:latest.release"
+    ]
+  },
   "ocs-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": ["com.github.tmtsoftware:sequencer-scripts:latest.release"],
