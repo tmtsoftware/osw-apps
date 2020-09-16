@@ -4,7 +4,7 @@
     "dependencies": [
       "com.github.tmtsoftware.esw:esw-shell_2.13:latest.integration"
     ],
-    "mainClass": "shell.Main",
+    "mainClass": "esw.shell.Main",
     "properties": {
       "csw-networks.hostname.automatic": "on",
       "csw-logging.appender-config.file.baseLogPath": "/tmp"
