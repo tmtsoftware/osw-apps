@@ -22,11 +22,18 @@ After release of msocket, update msocket version in csw before releasing csw.
 1. esw-ui-template.g8
 1. sequencer-scripts
 
+## Release process for all above repos
+
+1. Upgrade third party repo versions. (libs + plugins)
+1. Check for unused library dependencies if any.
+1. Check `release.yml` for any modifications needed.
+1. Update `Releasing.md` if any new release step is added for each repo. 
+
+
 ## Guidelines for release
 
 1. Dev pipeline is green.
 1. Tagging of repository is done using `release.sh` checked in inside each repository.
 1. Follow semantic versioning scheme. major.minor.patch version. Each tag version is prefixed with `v`.
 1. For repos which don't have any changes, we can skip release for those repositories and use previously released version.
-
 
