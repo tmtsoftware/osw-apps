@@ -15,6 +15,8 @@ After release of msocket, update msocket version in csw before releasing csw.
 1. sbt-docs
 1. kotlin-plugin
 1. CSW
+1. pycsw
+1. csw-c
 1. csw.g8
 1. ESW
 1. ESW-backend-template.g8
