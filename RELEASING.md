@@ -38,9 +38,13 @@ After release of msocket, update msocket version in csw before releasing csw.
 1. Tagging of repository is done using `release.sh` checked in inside each repository.
 1. Follow semantic versioning scheme. major.minor.patch version. Each tag version is prefixed with `v`.
 1. For repos which don't have any changes, we can skip release for those repositories and use previously released version.
-1. For any third-party dependency, if it has milestone release after latest stable / rc releases. Correct default is to pick latest stable version.
-   For ex: A library has 
+
+
+## Upgrade third party repo versions. (libs + plugins)
+If a third party lib/ plugin has milestone release after latest stable / rc releases. Correct default is to pick latest stable version of it.
+
+For ex: A library has 
   -  Latest Milestone Version : 7.4.0-M4
-  -  **Latest Stable Version : 7.3.2**
+  -  **Latest Stable Version : 7.3.2**       <= will be picked in the next release
 
 
