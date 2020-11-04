@@ -29,8 +29,7 @@ After release of msocket, update msocket version in csw before releasing csw.
 1. Upgrade third party repo versions. (libs + plugins)
 1. Check for unused library dependencies if any.
 1. Check `release.yml` for any modifications needed.
-1. Update `Releasing.md` if any new release step is added for each repo. 
-
+1. Update `Releasing.md` if any new release step is added for each repo.
 
 ## Guidelines for release
 
@@ -39,12 +38,11 @@ After release of msocket, update msocket version in csw before releasing csw.
 1. Follow semantic versioning scheme. major.minor.patch version. Each tag version is prefixed with `v`.
 1. For repos which don't have any changes, we can skip release for those repositories and use previously released version.
 
-
 ## Upgrade third party repo versions. (libs + plugins)
+
 If a third party lib/ plugin has milestone release after latest stable / rc releases. Correct default is to pick latest stable version of it.
 
-For ex: A library has 
-  -  Latest Milestone Version : 7.4.0-M4
-  -  **Latest Stable Version : 7.3.2**       <= will be picked in the next release
+For ex: A library has
 
-
+- Latest Milestone Version : 7.4.0-M4
+- **Latest Stable Version : 7.3.2**       <= will be picked in the next release
