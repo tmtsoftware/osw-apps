@@ -192,7 +192,7 @@
   "sm-simulation-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-sm-simulation-app_2.13:b95a7b097c"
+      "com.github.tmtsoftware.esw:esw-sm-simulation-app_2.13:320b1abeaa"
     ],
     "properties": {
       "csw-networks.hostname.automatic": "on",
