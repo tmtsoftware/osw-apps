@@ -127,6 +127,12 @@
       "com.github.tmtsoftware.csw:csw-services_2.13:latest.release"
     ]
   },
+  "esw-services": {
+    "repositories": ["jitpack", "central"],
+    "dependencies": [
+      "com.github.tmtsoftware.esw:esw-services_2.13:latest.release"
+    ]
+  },
   "backend-testkit-services": {
     "repositories": ["jitpack", "central", "https://jcenter.bintray.com"],
     "dependencies": [
