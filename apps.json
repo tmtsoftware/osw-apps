@@ -9,9 +9,8 @@
       "csw-networks.hostname.automatic": "on",
       "csw-logging.appender-config.file.baseLogPath": "/tmp"
     }
-
   },
-  "gateway-server": {
+  "esw-gateway-server": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
       "com.github.tmtsoftware.esw:esw-gateway-server_2.13:latest.release"
@@ -21,7 +20,7 @@
       "csw-logging.appender-config.file.baseLogPath": "/tmp"
     }
   },
-  "agent-app": {
+  "esw-agent-akka-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
       "com.github.tmtsoftware.esw:esw-agent-akka-app_2.13:latest.release"
@@ -32,7 +31,7 @@
       "agent.coursier.channel": "https://raw.githubusercontent.com/tmtsoftware/osw-apps/master/apps.json"
     }
   },
-  "agent-service-app": {
+  "esw-agent-service-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
       "com.github.tmtsoftware.esw:esw-agent-service-app_2.13:latest.release"
@@ -42,20 +41,20 @@
       "csw-logging.appender-config.file.baseLogPath": "/tmp"
     }
   },
-  "ocs-app": {
+  "esw-ocs-app": {
     "repositories": ["jitpack", "central"],
-    "dependencies": ["com.github.tmtsoftware.sequencer-scripts:sequencer-scripts_2.13:latest.release"],
+    "dependencies": [
+      "com.github.tmtsoftware.sequencer-scripts:sequencer-scripts_2.13:latest.release"
+    ],
     "mainClass": "esw.ocs.app.SequencerApp",
     "properties": {
       "csw-networks.hostname.automatic": "on",
       "csw-logging.appender-config.file.baseLogPath": "/tmp"
     }
   },
-  "sequence-manager": {
+  "esw-sm-app": {
     "repositories": ["jitpack", "central"],
-    "dependencies": [
-      "com.github.tmtsoftware.esw:esw-sm-app_2.13:8d8741779c"
-    ],
+    "dependencies": ["com.github.tmtsoftware.esw:esw-sm-app_2.13:8d8741779c"],
     "properties": {
       "csw-networks.hostname.automatic": "on",
       "csw-logging.appender-config.file.baseLogPath": "/tmp"
@@ -188,15 +187,5 @@
       "com.github.tmtsoftware.esw:esw-contract_2.13:latest.release"
     ],
     "mainClass": "esw.contract.Main"
-  },
-  "sm-simulation-app": {
-    "repositories": ["jitpack", "central"],
-    "dependencies": [
-      "com.github.tmtsoftware.esw:esw-sm-simulation-app_2.13:320b1abeaa"
-    ],
-    "properties": {
-      "csw-networks.hostname.automatic": "on",
-      "csw-logging.appender-config.file.baseLogPath": "/tmp"
-    }
   }
 }
