@@ -23,6 +23,7 @@ After release of msocket, update msocket version in csw before releasing csw.
 1. esw-ts
 1. esw-ui-template.g8
 1. sequencer-scripts
+1. esw-ocs-eng-ui
 
 ## Release process for all above repos
 
@@ -46,3 +47,7 @@ For ex: A library has
 
 - Latest Milestone Version : 7.4.0-M4
 - **Latest Stable Version : 7.3.2**       <= will be picked in the next release
+
+## After release 
+
+- Update the version of repos in [osw-dev](https://github.com/tmtsoftware/osw-dev) repo. e.g., esw, csw versions etc.
