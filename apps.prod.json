@@ -78,7 +78,7 @@
     ]
   },
   "rtm": {
-    "repositories": ["jitpack", "https://jcenter.bintray.com"],
+    "repositories": ["jitpack"],
     "dependencies": ["com.github.tmtsoftware:rtm_2.13:latest.release"],
     "mainClass": "tmt.test.reporter.TestRequirementMapper"
   },
