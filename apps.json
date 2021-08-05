@@ -187,5 +187,11 @@
       "com.github.tmtsoftware.esw:esw-contract_2.13:latest.release"
     ],
     "mainClass": "esw.contract.Main"
+  },
+  "dms-services": {
+    "repositories": ["jitpack", "central"],
+    "dependencies": [
+      "com.github.tmtsoftware.dms-prototype:dms-services_2.13:latest.release"
+    ]
   }
 }
