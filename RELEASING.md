@@ -14,6 +14,7 @@ After release of msocket, update msocket version in csw before releasing csw.
 1. embedded-keycloak
 1. sbt-docs
 1. kotlin-plugin
+1. rtm
 1. CSW
 1. pycsw
 1. csw-c
