@@ -26,6 +26,8 @@ After release of msocket, update msocket version in csw before releasing csw.
 1. sequencer-scripts
 1. esw-ocs-eng-ui
 
+**Note:** After the release of above repos, upgrade the versions in the `apps.json`(Only if it is the final release e.g., 4.0.0 etc.)
+
 ## Release process for all above repos
 
 1. Upgrade third party repo versions. (libs + plugins)
