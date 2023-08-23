@@ -12,10 +12,10 @@
       "com.github.tmtsoftware.esw:esw-gateway-server_3:latest.release"
     ]
   },
-  "esw-agent-akka-app": {
+  "esw-agent-pekko-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-agent-akka-app_3:latest.release"
+      "com.github.tmtsoftware.esw:esw-agent-pekko-app_3:latest.release"
     ]
   },
   "esw-agent-service-app": {

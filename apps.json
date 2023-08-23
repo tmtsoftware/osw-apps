@@ -20,10 +20,10 @@
       "csw-logging.appender-config.file.baseLogPath": "/tmp"
     }
   },
-  "esw-agent-akka-app": {
+  "esw-agent-pekko-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-agent-akka-app_3:993fda5"
+      "com.github.tmtsoftware.esw:esw-agent-pekko-app_3:993fda5"
     ],
     "properties": {
       "csw-networks.hostname.automatic": "on",
