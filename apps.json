@@ -2,7 +2,7 @@
   "esw-shell": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-shell_3:4c53f71"
+      "com.github.tmtsoftware.esw:esw-shell_3:77b933c"
     ],
     "mainClass": "esw.shell.Main",
     "properties": {
@@ -13,7 +13,7 @@
   "esw-gateway-server": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-gateway-server_3:4c53f71"
+      "com.github.tmtsoftware.esw:esw-gateway-server_3:77b933c"
     ],
     "properties": {
       "csw-networks.hostname.automatic": "on",
@@ -23,7 +23,7 @@
   "esw-agent-pekko-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-agent-pekko-app_3:4c53f71"
+      "com.github.tmtsoftware.esw:esw-agent-pekko-app_3:77b933c"
     ],
     "properties": {
       "csw-networks.hostname.automatic": "on",
@@ -34,7 +34,7 @@
   "esw-agent-service-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-agent-service-app_3:4c53f71"
+      "com.github.tmtsoftware.esw:esw-agent-service-app_3:77b933c"
     ],
     "properties": {
       "csw-networks.hostname.automatic": "on",
@@ -44,7 +44,7 @@
   "esw-ocs-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.sequencer-scripts:sequencer-scripts_3:471b270"
+      "com.github.tmtsoftware.sequencer-scripts:sequencer-scripts_3:ab2104e"
     ],
     "mainClass": "esw.ocs.app.SequencerApp",
     "properties": {
@@ -54,7 +54,7 @@
   },
   "esw-sm-app": {
     "repositories": ["jitpack", "central"],
-    "dependencies": ["com.github.tmtsoftware.esw:esw-sm-app_3:4c53f71"],
+    "dependencies": ["com.github.tmtsoftware.esw:esw-sm-app_3:77b933c"],
     "properties": {
       "csw-networks.hostname.automatic": "on",
       "csw-logging.appender-config.file.baseLogPath": "/tmp"
@@ -129,13 +129,13 @@
   "esw-services": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-services_3:4c53f71"
+      "com.github.tmtsoftware.esw:esw-services_3:77b933c"
     ]
   },
   "backend-testkit-services": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-backend-testkit_3:4c53f71"
+      "com.github.tmtsoftware.esw:esw-backend-testkit_3:77b933c"
     ],
     "mainClass": "esw.backend.testkit.BackendService",
     "properties": {
@@ -146,7 +146,7 @@
   "backend-testkit-component": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-backend-testkit_3:4c53f71"
+      "com.github.tmtsoftware.esw:esw-backend-testkit_3:77b933c"
     ],
     "mainClass": "esw.backend.testkit.ContainerCmdApp",
     "properties": {
@@ -157,7 +157,7 @@
   "backend-testkit-sequencer": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-backend-testkit_3:4c53f71"
+      "com.github.tmtsoftware.esw:esw-backend-testkit_3:77b933c"
     ],
     "mainClass": "esw.backend.testkit.SequencerApp",
     "properties": {
@@ -184,7 +184,7 @@
   "esw-contract": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:esw-contract_3:4c53f71"
+      "com.github.tmtsoftware.esw:esw-contract_3:77b933c"
     ],
     "mainClass": "esw.contract.Main"
   },
