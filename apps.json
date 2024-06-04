@@ -167,7 +167,7 @@
   },
   "rtm": {
     "repositories": ["jitpack"],
-    "dependencies": ["com.github.tmtsoftware:rtm_3:1981053"],
+    "dependencies": ["com.github.tmtsoftware:rtm_3:901c57e"],
     "mainClass": "tmt.test.reporter.TestRequirementMapper",
     "properties": {
       "csw-networks.hostname.automatic": "on",
