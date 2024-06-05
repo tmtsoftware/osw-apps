@@ -44,7 +44,7 @@
   "esw-ocs-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.sequencer-scripts:sequencer-scripts_3:6fb7158"
+      "com.github.tmtsoftware.sequencer-scripts:sequencer-scripts_3:f15ba80"
     ],
     "mainClass": "esw.ocs.app.SequencerApp",
     "properties": {
