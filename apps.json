@@ -63,6 +63,18 @@
       "csw-logging.appender-config.file.baseLogPath": "/tmp"
     }
   },
+  "esw-ocs-script-server-test-app": {
+    "repositories": ["jitpack", "central"],
+    "dependencies": [
+      "com.github.tmtsoftware.esw:esw-ocs-app_3:0.1.0-SNAPSHOT",
+      "com.github.tmtsoftware.esw:examples_3:0.1.0-SNAPSHOT"
+    ],
+    "mainClass": "esw.ocs.script.server.OcsScriptServerApp",
+    "properties": {
+      "csw-networks.hostname.automatic": "on",
+      "csw-logging.appender-config.file.baseLogPath": "/tmp"
+    }
+  },
   "esw-sm-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": ["com.github.tmtsoftware.esw:esw-sm-app_3:0.1.0-SNAPSHOT"],
