@@ -66,7 +66,7 @@
   "esw-ocs-script-server-test-app": {
     "repositories": ["jitpack", "central"],
     "dependencies": [
-      "com.github.tmtsoftware.esw:examples_3:0.1.0-SNAPSHOT"
+      "com.github.tmtsoftware.sequencer-scripts:sequencer-scripts_3:0.1.0-SNAPSHOT"
     ],
     "mainClass": "esw.ocs.script.server.OcsScriptServerApp",
     "properties": {
