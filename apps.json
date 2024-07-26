@@ -61,7 +61,7 @@
     "properties": {
       "csw-networks.hostname.automatic": "on",
       "csw-logging.appender-config.file.baseLogPath": "/tmp",
-      "test.esw": true
+      "test.esw": "true"
     }
   },
   "esw-ocs-script-server-app": {
