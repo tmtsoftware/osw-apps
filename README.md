@@ -18,3 +18,25 @@ After adding the channel, Cousier will look into saved channels to find the appl
 ```bash
 cs launch <app to launch>:<version|SHA>
 ```
+
+## Potential issue with osw-apps
+
+The Coursier cache for channel URLs gets out of date (The content of apps.json is cached under ~/.cache/coursier and not updated to reflect any changes made there during development). Solution: 
+```
+\rm -rf  ~/.cache/coursier/v1/https/raw.githubusercontent.com/tmtsoftware/osw-apps/, then rerun/rebuild
+```
+
+There is a potential problem with ocs-apps: Previous versions of TMT projects use this command to start apps:
+
+```
+cs launch --channel https://raw.githubusercontent.com/tmtsoftware/osw-apps/master/apps.json ...
+```
+
+The latest versions now use a different branch:
+```
+cs launch --channel https://raw.githubusercontent.com/tmtsoftware/osw-apps/branch-0.6.x/apps.json ...
+```
+
+If we update the master branch of osw-apps for scala3/pekko, etc., it will break previous versions of csw, esw and other projects (both at build and runtime).
+
+So, don't update the master branch.
