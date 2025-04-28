@@ -28,7 +28,7 @@
     "properties": {
       "csw-networks.hostname.automatic": "on",
       "csw-logging.appender-config.file.baseLogPath": "/tmp",
-      "agent.coursier.channel": "https://raw.githubusercontent.com/tmtsoftware/osw-apps/master/apps.json"
+      "agent.coursier.channel": "https://raw.githubusercontent.com/tmtsoftware/osw-apps/branch-6.0.x/apps.json"
     }
   },
   "esw-agent-service-app": {
