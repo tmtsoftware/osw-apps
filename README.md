@@ -34,7 +34,7 @@ cs launch --channel https://raw.githubusercontent.com/tmtsoftware/osw-apps/maste
 
 The latest versions now use a different branch:
 ```
-cs launch --channel https://raw.githubusercontent.com/tmtsoftware/osw-apps/branch-0.6.x/apps.json ...
+cs launch --channel https://raw.githubusercontent.com/tmtsoftware/osw-apps/branch-6.0.x/apps.json ...
 ```
 
 If we update the master branch of osw-apps for scala3/pekko, etc., it will break previous versions of csw, esw and other projects (both at build and runtime).
