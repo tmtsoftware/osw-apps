@@ -21,7 +21,7 @@ cs launch <app to launch>:<version|SHA>
 
 ## Potential issue with osw-apps
 
-The Coursier cache for channel URLs gets out of date (The content of apps.json is cached under ~/.cache/coursier and not updated to reflect any changes made there during development). Solution: 
+The Coursier cache for channel URLs gets out of date (The content of apps.json is cached under ~/.cache/coursier (~/Library/Application Support/Coursier/channels on Mac) and not updated to reflect any changes made there during development). Solution: 
 ```
 \rm -rf  ~/.cache/coursier/v1/https/raw.githubusercontent.com/tmtsoftware/osw-apps/, then rerun/rebuild
 ```
